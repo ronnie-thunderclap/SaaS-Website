@@ -1,5 +1,29 @@
-@media screen and (max-width: 1200px) {
-  body {
-    min-width: 1000px;
-  }
+.navbar .container {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  padding-top: var(--size-13);
+}
+
+.logo-img {
+  width: var(--size-150);
+  margin-right: auto;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.nav-link a{
+  color: var(--font-color-base);
+  font-size: 0.813rem;
+  font-weight: 500;
+  margin-right: var(--size-40);
+  line-height: var(--size-20);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
 }
