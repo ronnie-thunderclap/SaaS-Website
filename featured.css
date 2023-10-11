@@ -1,10 +1,10 @@
 :root {
   --white: #FFF;
   --black: #000;
-  --font-color-base: #666;
+  --font-color-base: #7B8FA1;
   --font-color-dark: #212529;
   --font-color-light: #b0aebe;
-  --font-color-link: #57A6FF;
+  --font-color-link: #4E4FEB;;
   --footer: #34314b;
   --footer-base: #2e2b45;
   --contrast: rgba(246, 248, 249, 0.8);
@@ -14,6 +14,7 @@
   --grad-2: #7dbcff;
 
 
+
   --size-10: 0.625rem;
   --size-13: 0.875rem;
   --size-14: 1rem;
@@ -21,8 +22,11 @@
   --size-18: 1.175rem;
   --size-20: 1.25rem;
   --size-30: 1.875rem;
+  --size-35: 2.35rem;
   --size-40: 2.5rem;
   --size-50: 3.125rem;
+  --size-60: 3.5rem;
+  --size-90: 6rem;
   --size-100: 6.25rem;
   --size-150: 9.325rem;
 }
@@ -30,8 +34,9 @@
 html { scroll-behavior: smooth; }
 
 body {
+  background-image: var(--white);
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: var(--size-13);
   line-height: 1.6;
   letter-spacing: 0;
@@ -53,12 +58,18 @@ ul {
 }
 
 a { text-decoration: none; }
-p { margin-top: 0; }
+p { margin: var(--size-13) 0px; }
 
 h2 {
+  margin: 0;
   font-size: 1.75rem;
   font-weight: 500;
   line-height: 1.2;
+  color: var(--black);
+}
+
+h3 {
+  color: var(--black);
 }
 
 img {
@@ -66,6 +77,11 @@ img {
   max-width: 100%;
   vertical-align: middle;
   border-style: none;
+}
+
+section {
+  padding-top: var(--size-100);
+  padding-bottom: var( --size-100);
 }
 
 .container {
@@ -79,7 +95,7 @@ img {
 .btn {
   font-size: 0.813rem;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--white);
   text-align: center;
   cursor: pointer;
@@ -94,6 +110,8 @@ img {
 .btn-primary {
   background-color: #4E4FEB;
 }
+
+
 
 @media (min-width: 1200px) {
   .container {max-width: 1100px; }

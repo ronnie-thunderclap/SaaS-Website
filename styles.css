@@ -2,6 +2,10 @@
   display: flex;
   align-items: center;
 }
+
+.background {
+  background-image: url(/SGDfYn.jpg);
+}
 .navbar {
   padding-top: var(--size-13);
 }
@@ -15,6 +19,10 @@
   display: inline;
 }
 
+#features a {
+  color: var(--font-color-link);
+}
+
 .nav-link a{
   color: var(--font-color-base);
   font-size: 0.813rem;
@@ -26,4 +34,155 @@
 .navbar-nav {
   display: flex;
   align-items: center;
+}
+
+.empowering .container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.freedom {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.freedom .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.freedom h2 {
+  font-size: var(--size-35);
+  color: var(--black);
+  font-weight: 600;
+}
+
+.freedom span {
+  color: var(--font-color-link);
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.btn {
+  display: flex;
+  align-content: center;
+}
+.btn i {
+  font-size: var(--size-18);
+  padding-right: 8px;
+}
+
+.logos {
+  position: relative;
+  width: 100%;
+}
+.logos div {
+  width: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 10px 3px;
+  background: var(--white);
+}
+
+
+#google {
+  position: absolute;
+  left: 14.375rem;
+  width: 45px;
+}
+
+#atlassian {
+  position: absolute;
+  left: 21.125rem;
+  padding: 18px;
+  width: 55px;
+}
+
+#asana { 
+  position: absolute;
+  left: 38rem;
+  padding: 18px;
+}
+
+#pay {
+  position: absolute;
+  left: 13rem;
+  top: 10rem;
+  padding: 15px;
+}
+
+#wave {
+  position: absolute;
+  left: 27rem;
+  top: 10rem; 
+  padding: 18px;
+}
+
+#google-A {
+  position: absolute;
+  left: 20rem;
+  top: 15rem; 
+  width: 45px;
+}
+
+#calendar {
+  position: absolute;
+  left: 37rem;
+  top: 17rem;
+  width: 55px;
+  padding: 18px;
+}
+
+.key-benefits {
+  display: flex;
+  gap: 40px;
+}
+
+.benefit-header {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.card {
+  padding: 15px;
+  box-shadow: rgba(50, 50, 93, 0.125) 0px 21px 23px 7px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card a {
+  color: var(--font-color-link);
+}
+
+.key-benefits .card-img {
+  width: 50px;
+}
+
+.hero { background-color: rgb(236, 242, 255, 0.4);}
+
+.hero .container {
+  display: flex;
+}
+
+.hero .container h2 {
+  padding: 30px 0;
+}
+
+.banner-1 { flex-grow: 1; }
+.hero-header { flex-shrink: 3;}
+
+
+
+
+.hub {
+  width: 100px;
+}
+
+.company-logos div {
+  width: 100px;
 }
