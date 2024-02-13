@@ -160,6 +160,18 @@
   color: var(--font-color-link);
 }
 
+/* .sketch-card h3 {
+  display: inline-block;
+} */
+/* 
+.sketch {
+  display: inline;
+  background-color: #A1EEBD;
+  color: var(--white);
+  font-size: 1rem;
+}
+ */
+
 .key-benefits .card-img {
   width: 50px;
 }
